@@ -1,0 +1,7 @@
+{
+  "name": "Face",
+  "version": "1.0.0",
+  "dependencies": {
+    "@mediapipe/camera_utils": "latest"
+  }
+}

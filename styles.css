@@ -1,0 +1,47 @@
+body {
+  height: 100%;
+}
+canvas.output_canvas {
+  transform: scaleX(-1);
+}
+section {
+  width: 200px;
+  margin: 10px auto;
+  padding: 2em;
+  background: rgb(184, 219, 179);
+}
+
+h1 {
+  text-align: center;
+  font-size: 6em;
+  color: #fff;
+}
+
+div {
+  color: #fff;
+  font-size: 0.75em;
+  margin: 25px;
+}
+
+#div1 {
+  width: 20%;
+  float: right;
+}
+#div2 {
+
+  width: 15%;
+  float: left;
+}
+#div3 {
+  width: 50%;
+  margin: 0 auto;
+}
+.videoDiv{
+  
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 110%;
+    min-height: 110%;
+  
+}

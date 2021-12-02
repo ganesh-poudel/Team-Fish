@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/camera_utils/camera_utils.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/control_utils/control_utils.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/drawing_utils/drawing_utils.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/holistic/holistic.js" crossorigin="anonymous"></script>
+    <script type="module" src="Main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Merriweather:ital@1&display=swap" rel="stylesheet">
+</head>
+
+<body >
+    <div id='div1' style="display: inline-block ; " > 
+        <img  class='ruollette' src="giphy.gif" alt="Ruollette" style= "width:150px;height:150px; visibility: hidden;border-radius: 20px; position:absolute " >
+        <section class="sect1" style="border-radius: 20px; position:absolute">
+            
+                <img src="lucky.png" style="width: 120px;">
+               
+            <h1 id="lucky" style="color: black;font-family: 'Merriweather', serif;"> ??? </h1>
+            
+        </section>
+     
+    </div>
+    
+    <div id='div2'> 
+        <button  class="playVid" style="visibility: visible; background: rgb(184, 219, 179);border-radius: 20px;position:absolute;font-family: 'Merriweather', serif;" type="text">
+            <h3>Play Video</h3>
+            
+        </button>
+        <video class='videoDiv' width="1200px" height="640" controls  style="visibility:hidden; border-radius: 20px; position:absolute">
+            <source src="video2.mp4" type="video/mp4">
+            <source src="movie.ogg" type="video/ogg">
+            Your browser does not support the video tag.
+          </video>  
+          <button  class="background" style="visibility: visible; background: rgb(184, 219, 179);border-radius: 20px;position:absolute;font-family: 'Merriweather', serif;margin-top: 850px;" type="text">
+            <h3>Background</h3>
+           
+        </button>
+     </div>
+    <div id="div3" style="position:absolute" >
+        <video hidden class="input_video" ></video>
+        <canvas class="output_canvas" width="1800px" height="1000px"></canvas>   
+    </div>
+   
+
+<img class="appear" style="display: none;" src="http://i.stack.imgur.com/SBv4T.gif" alt="this slowpoke moves"  width="250" />
+
+</body>
+</html>
